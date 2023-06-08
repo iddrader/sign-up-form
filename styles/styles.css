@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("Norse-Bold.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+main {
+    display: flex;
+}
+
+.logo {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15em;
+}
+
+.logo > img {
+    width: 100px;
+    padding: 1em;
+    
+}
+
+.logo-text {
+    color: white;
+    font-family: "Norse Bold";
+    font-size: 5em;
+}
+
+.leaves {
+    background: url(leaves.jpg);
+    background-size: cover;
+    flex: 1 1 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content {
+    flex: 4 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f6f6f6;
+}
+
+.description{
+    font-weight: 400;
+    margin: 40px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+.form-content {
+    background-color: #f1f1f1;
+    padding: 2em;
+    box-shadow: #e1e1e1 0 0 1em 0.2em;
+    display: flex;
+    flex-wrap: wrap;
+}
